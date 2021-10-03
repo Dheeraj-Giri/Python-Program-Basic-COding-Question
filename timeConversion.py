@@ -1,3 +1,8 @@
+'''
+ Normal to Standard time conversion 
+
+'''
+
 def timeConversion(s):
     if ( (s[-2:]=='AM' or s[-2:]=='am')  and (s[:2]=='12') ):
         return '00'+s[2:-2]
